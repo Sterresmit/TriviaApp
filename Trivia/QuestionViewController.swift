@@ -14,6 +14,7 @@ class QuestionViewController: UIViewController {
     
     
     
+    
     var questionController = QuestionController()
     var questions = [QuestionItem]()
     
@@ -46,9 +47,8 @@ class QuestionViewController: UIViewController {
         }
     }
     
-    
+    //        if right answer pressed do something and +1 score, edit score label, move on to next
     @IBAction func answerGiven (_ sender: UIButton) {
-        //        if right answer pressed do something and +1 score, edit score label, move on to next
         if sender.currentTitle == currentQuestion.correctAnswer  {
             correctAnswersScore += 1
             scoreCountLabel.text = "Score: \(correctAnswersScore)"
