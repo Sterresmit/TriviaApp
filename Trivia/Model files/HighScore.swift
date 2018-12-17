@@ -7,6 +7,7 @@
 //
 
 import UIKit
+// define high score model
 struct HighScore: Codable {
     var name: String
     var score: String

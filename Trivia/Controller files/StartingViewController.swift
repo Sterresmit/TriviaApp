@@ -9,6 +9,10 @@
 import UIKit
 
 class StartingViewController: UIViewController {
+    // making the status bar white to match appearrance 
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     
     var highScoreStorage: HighScore!
     
