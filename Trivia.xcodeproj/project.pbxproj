@@ -109,6 +109,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F14B716321C7BAD20000D035 /* Controller files */ = {
+			isa = PBXGroup;
+			children = (
+				F18BB6EC21BDD0DB009E3E42 /* StartingViewController.swift */,
+				F18BB71821BE5562009E3E42 /* QuestionViewController.swift */,
+				F187C09E21BE94C400DAE0EE /* QuestionController.swift */,
+				F18BB71E21BE55F2009E3E42 /* ScoreTableViewController.swift */,
+			);
+			path = "Controller files";
+			sourceTree = "<group>";
+		};
+		F14B716421C7BAEC0000D035 /* Model files */ = {
+			isa = PBXGroup;
+			children = (
+				F187C0A421BFDFFF00DAE0EE /* HighScore.swift */,
+				F18BB71A21BE55D6009E3E42 /* QuestionData.swift */,
+			);
+			path = "Model files";
+			sourceTree = "<group>";
+		};
 		F18BB6DE21BDD0DB009E3E42 = {
 			isa = PBXGroup;
 			children = (
@@ -134,13 +154,9 @@
 		F18BB6E921BDD0DB009E3E42 /* Trivia */ = {
 			isa = PBXGroup;
 			children = (
+				F14B716321C7BAD20000D035 /* Controller files */,
+				F14B716421C7BAEC0000D035 /* Model files */,
 				F18BB6EA21BDD0DB009E3E42 /* AppDelegate.swift */,
-				F18BB6EC21BDD0DB009E3E42 /* StartingViewController.swift */,
-				F18BB71821BE5562009E3E42 /* QuestionViewController.swift */,
-				F18BB71E21BE55F2009E3E42 /* ScoreTableViewController.swift */,
-				F18BB71A21BE55D6009E3E42 /* QuestionData.swift */,
-				F187C0A421BFDFFF00DAE0EE /* HighScore.swift */,
-				F187C09E21BE94C400DAE0EE /* QuestionController.swift */,
 				F18BB6EE21BDD0DB009E3E42 /* Main.storyboard */,
 				F18BB6F121BDD0DD009E3E42 /* Assets.xcassets */,
 				F18BB6F321BDD0DD009E3E42 /* LaunchScreen.storyboard */,
